@@ -164,7 +164,7 @@
 
          
       </header>
-	   <br>
+	  
 <main role="main" property="mainContentOfPage" class="container">
 
 	
@@ -199,35 +199,28 @@
 
 		<p>Find out who to contact by answering a few questions based on your situation.</p>
 
-		<p>Make a selection and <strong>scroll down</strong> for further questions and results.</p>
+		<!--p>Make a selection and <strong>scroll down</strong> for further questions and results.</p-->
 
-		<div class="wb-frmvld gc-font-2019">
-			<form id="uht-contact-ff" class="hidden">
-				<section class="wb-fieldflow" data-wb-fieldflow="{&quot;noForm&quot;: true, &quot;isoptional&quot;: true, &quot;gcChckbxrdio&quot;:true,  &quot;renderas&quot;:&quot;radio&quot;, &quot;unhideelm&quot;: &quot;#uht-contact-ff&quot;, &quot;hideelm&quot;: &quot;.results, .hide-ff-load, .ff-uht-ind, .ff-uht-bus, .ff-uht-elec-form-na, .ff-uht-elec-form-intl, .ff-uht-ind-gen-na, .ff-uht-ind-gen-intl, .ff-uht-bus-gen-na, .ff-uht-bus-gen-intl&quot;, &quot;reset&quot;: {&quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.results, .ff-uht-ind, .ff-uht-bus, .ff-uht-elec-form-na, .ff-uht-elec-form-intl, .ff-uht-ind-gen-na, .ff-uht-ind-gen-intl, .ff-uht-bus-gen-na, .ff-uht-bus-gen-intl&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}}">
+		 <div class="wb-frmvld fieldflow-lg gc-font-2019">
+			<form id="ccus-itc-contact-ff" class="hidden">
+			<div class="wb-fieldflow" data-wb-fieldflow="{&quot;noForm&quot;: true, &quot;isoptional&quot;: true, &quot;gcChckbxrdio&quot;:true,  &quot;renderas&quot;:&quot;radio&quot;, &quot;reset&quot;: {&quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.phone&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}, &quot;unhideelm&quot;: &quot;#ccus-itc-contact-ff&quot;, &quot;hideelm&quot;: &quot;#admin,#admin-header,#guidance,#guidance-header&quot;}">			
 					<p>What is your question about?</p>
 					<ul>
-						<li>Administration of the CCUS ITC
-							<div class="wb-fieldflow-sub" data-wb-fieldflow="{&quot;noForm&quot;: true, &quot;isoptional&quot;: true, &quot;gcChckbxrdio&quot;:true,  &quot;renderas&quot;:&quot;radio&quot;, &quot;hideelm&quot;: &quot;.results, .hide-ff-load, .ff-uht-ind, .ff-uht-bus, .ff-uht-elec-form-na, .ff-uht-elec-form-intl, .ff-uht-ind-gen-na, .ff-uht-ind-gen-intl, .ff-uht-bus-gen-na, .ff-uht-bus-gen-intl&quot;, &quot;reset&quot;: {&quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.results, .ff-uht-ind, .ff-uht-bus, .ff-uht-elec-form-na, .ff-uht-elec-form-intl, .ff-uht-ind-gen-na, .ff-uht-ind-gen-intl, .ff-uht-bus-gen-na, .ff-uht-bus-gen-intl&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}}">
-								<div class="wb-fieldflow-header">	
-								</div>
-								</li></ul>
-				
+						 <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#admin&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Administration of the CCUS ITC</li>
+						 <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#guidance&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Guidance for the CCUS ITC</li></ul>
 				</div>
-						
-					<ul>
-						<li>Guidance for the CCUS ITC
-							<div class="wb-fieldflow-sub" data-wb-fieldflow="{&quot;noForm&quot;: true, &quot;isoptional&quot;: true, &quot;gcChckbxrdio&quot;:true,  &quot;renderas&quot;:&quot;radio&quot;, &quot;hideelm&quot;: &quot;.results, .hide-ff-load, .ff-uht-ind, .ff-uht-bus, .ff-uht-elec-form-na, .ff-uht-elec-form-intl, .ff-uht-ind-gen-na, .ff-uht-ind-gen-intl, .ff-uht-bus-gen-na, .ff-uht-bus-gen-intl&quot;, &quot;reset&quot;: {&quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.results, .ff-uht-ind, .ff-uht-bus, .ff-uht-elec-form-na, .ff-uht-elec-form-intl, .ff-uht-ind-gen-na, .ff-uht-ind-gen-intl, .ff-uht-bus-gen-na, .ff-uht-bus-gen-intl&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}}">
-								<div class="wb-fieldflow-header">
-									
-									
-								</div>
-						</li></ul>
-				</div>
-				</section>
 			</form>
 		</div>
-
-
+ <div id="phone-numbers">
+          <div id="admin" class="phone"> 
+		  <h2 id="admin-header" class="h4">Header if FF doesn't load</h2>
+		  <p>Contact the CRA</p>
+		  </div>
+		  <div id="guidance" class="phone"> 
+		  <h2 id="guidance-header" class="h4">Header if FF doesn't load</h2>
+		  <p>Contact NRCan</p>
+		  </div>
+</div>
 
 
 	
