@@ -466,7 +466,24 @@
       <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/wet-boew.min.js"></script>
 <script src="https://www.canada.ca/etc/designs/canada/wet-boew/js/theme.min.js"></script>
 <script src="https://cdn.botframework.com/botframework-webchat/4.9.1/webchat-es5.js"></script>
+     <script>
+        $(".action-checkbox").change(function() {
+            if ($('.action-checkbox:checked').length == $('.action-checkbox').length) {
+                $("#action-msg1").removeClass("hidden").addClass("visible");
+                $("#action-no-msg, #action-msg2").addClass("hidden").removeClass("visible");
+            }
 
+            if ($('.action-checkbox:checked').length !== $('.action-checkbox').length) {
+                $("#action-msg1, #action-no-msg").addClass("hidden").removeClass("visible");
+                $("#action-msg2").removeClass("hidden").addClass("visible");
+            }
+
+            if ($('.action-checkbox:checked').length == 0) {
+                $("#action-msg1, #action-msg2").addClass("hidden").removeClass("visible");
+                $("#action-no-msg").removeClass("hidden").addClass("visible");
+            }
+        })
+    </script>
 
 
    </body>
