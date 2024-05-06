@@ -156,48 +156,50 @@
   
   <p>Find out who to contact by answering the question below.</p>
   
-  <!--p>Make a selection and <strong>scroll down</strong> for further questions and results.</p-->
-  
-  <div class="wb-frmvld fieldflow-lg gc-font-2019">
-    <form id="ccus-itc-contact-ff" class="hidden">
-      <div class="wb-fieldflow" data-wb-fieldflow="{&quot;noForm&quot;: true, &quot;isoptional&quot;: true, &quot;gcChckbxrdio&quot;:true,  &quot;renderas&quot;:&quot;radio&quot;, &quot;reset&quot;: {&quot;action&quot;: &quot;addClass&quot;, &quot;source&quot;: &quot;.phone&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}, &quot;unhideelm&quot;: &quot;#ccus-itc-contact-ff&quot;, &quot;hideelm&quot;: &quot;#admin,#admin-header,#guidance,#guidance-header,#design,#design-header&quot;}">
-        <p>What is your question related to?</p>
-        <ul>
-<li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#guidance&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Eligibility or verification of Class 57 and Class 58 property, and dual-use equipment</li>
-   <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#guidance&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Project evaluations</li>
- <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#guidance&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Scientific, engineering, or technical guidance</li>
-      <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#guidance&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Changes to your project</li>
-	  <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#admin&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Claiming the tax credit</li>
-                 
-  <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#guidance&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Submitting your annual claim report or knowledge sharing report</li>
-
- <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#admin&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Completing your annual climate risk disclosure report</li>
-          <li data-wb-fieldflow="{&quot;action&quot;: &quot;removeClass&quot;, &quot;source&quot;: &quot;#admin&quot;, &quot;class&quot;: &quot;hidden&quot;, &quot;live&quot;: true}">Labour requirements</li>
- 
-        </ul>
+  <div data-wb-urlmapping='{
+		"contact=technical": [{ "action": "selectInput", "source": "#contactOptions", "value": "Technical guidance on CT property" },{ "action": "removeClass", "source": "#guidance", "class": "hidden" }],
+		"contact=claiming": [{ "action": "selectInput", "source": "#contactOptions", "value": "Claiming the tax credit" },{ "action": "removeClass", "source": "#admin", "class": "hidden" }],
+		"contact=labour": [{ "action": "selectInput", "source": "#contactOptions", "value": "Labour requirements" },{ "action": "removeClass", "source": "#admin", "class": "hidden" }]
+	}'></div>
+  <div class="wb-frmvld gc-font-2019">
+    <form id="contactOptions" class="hidden">
+      <div class="wb-fieldflow" data-wb-fieldflow='{"noForm": true, "isoptional": true, "gcChckbxrdio":true, "renderas":"radio", "reset": {"action": "addClass", "source": ".phone", "class": "hidden", "live": true}, "itmselector": "#options", "unhideelm": "#contactOptions", "hideelm": ".hidden-header,.phone"}'>
+        <div class="wb-fieldflow-header">
+          <div class="wb-fieldflow-label">What is your question related to?</div>
+        </div>
+        <div id="options">
+          <ul>
+            <li data-wb-fieldflow='{"action": "removeClass", "source": "#guidance", "class": "hidden", "live": true}'>Technical guidance on CT property</li>
+            <li data-wb-fieldflow='{"action": "removeClass", "source": "#admin", "class": "hidden", "live": true}'>Claiming the tax credit</li>
+            <li data-wb-fieldflow='{"action": "removeClass", "source": "#admin", "class": "hidden", "live": true}'>Labour requirements</li>
+          </ul>
+        </div>
       </div>
     </form>
   </div>
   <div id="phone-numbers">
-    <div id="admin" class="phone">
-      <h2 id="admin-header" class="h4">Header if FF doesn't load</h2>
-    <div class="alert alert-info results" id="results-return-online">
-				<h2 class="h3 mrgn-tp-0">Contact the Canada Revenue Agency (CRA)</h2>
-				<div data-ajax-replace="https://cra-proto.github.io/clean-economy/labour-req-alt.html#ajax-fraser"></div>
-	
+    <div id="guidance" class="phone" tabindex="0">
+      <h2 class="h4 hidden-header">For technical guidance on CT property</h2>
+      <div class="alert alert-info">
+        <h2 class="h3 mrgn-tp-0">Contact Natural Resources Canada (NRCan)</h2>
+        <p><strong>Email: </strong>nrcan.class43-1-categorie43-1.rncan@canada.ca</p>
+        <p>Please note that this inbox is for general questions relating to:</p>
+<ul>
+	<li>Eligible clean technology property </li>
+	<li>How to apply for a technical opinion as to whether the equipment in your project meets the engineering and scientific requirements of one or more categories of clean technology property</li>
+</ul>
 
-</div>
+	      
+      </div>
     </div>
-    <div id="guidance" class="phone">
-      <h2 id="guidance-header" class="h4">Header if FF doesn't load</h2>
-
-
-<div class="alert alert-info results" id="results-return-online">
-				<h2 class="h3 mrgn-tp-0">Contact Natural Resources Canada (NRCan)</h2>
-				<p><strong>Email:</strong> itc_ccus-cii_cusc@nrcan-rncan.gc.ca</p>
-	<!--<p>NRCan recognizes that e-mail is not a secure means of communication, and cannot guarantee the security of confidential information sent via email while it is in transit.</p>--!>
-<p>[Disclaimer to be added]</p>
-</div>
+    <div id="admin" class="phone" tabindex="0">
+      <h2 class="h4 hidden-header">For information on claiming the tax credit or labour requirements</h2>
+      <div class="alert alert-info">
+        <h2 class="h3 mrgn-tp-0">Contact the Canada Revenue Agency (CRA)</h2>
+        <div data-ajax-replace="https://cra-proto.github.io/clean-economy/labour-req-alt.html#ajax-fraser"><a href="https://cra-proto.github.io/clean-economy/labour-req-alt.html#ajax-fraser">Fraser Valley and Interior Tax Services Office</a></div>
+      </div>
+    </div>
+  </div>
 	    
     </div>
 
