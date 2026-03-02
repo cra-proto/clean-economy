@@ -47,4 +47,52 @@
     "origin": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-hydrogen-itc/who-claim-ch-itc.html",
     "destination": "/clean-economy/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-hydrogen-itc/who-claim-ch-itc.html"
   }
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc.html",
+    "destination": "/clean-economy/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/about-ce-itc.html",
+    "destination": "/clean-economy/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/about-ce-itc.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/after-claim-ce-itc.html",
+    "destination": "/clean-economy/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/after-claim-ce-itc.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/claiming-credit-ce-itc.html",
+    "destination": "/clean-economy/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/claiming-credit-ce-itc.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/claiming-credit-ce-itc/calculate.html",
+    "destination": "/clean-economy/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/claiming-credit-ce-itc/calculate.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/claiming-credit-ce-itc/get-ready.html",
+    "destination": "/clean-economy/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/claiming-credit-ce-itc/get-ready.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/claiming-credit-ce-itc/how-claim.html",
+    "destination": "/clean-economy/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/claiming-credit-ce-itc/how-claim.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/contact-ce-itc.html",
+    "destination": "/clean-economy/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/contact-ce-itc.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/projects-qualify-ce-itc.html",
+    "destination": "/clean-economy/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/projects-qualify-ce-itc.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/reporting-responsibilities-ce-itc.html",
+    "destination": "/clean-economy/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/reporting-responsibilities-ce-itc.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/review-decision-ce-itc.html",
+    "destination": "/clean-economy/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/review-decision-ce-itc.html"
+  },
+  {
+    "origin": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/who-claim-ce-itc.html",
+    "destination": "/clean-economy/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/who-claim-ce-itc.html"
+  }
 ]
