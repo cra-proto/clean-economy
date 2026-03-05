@@ -1,6 +1,6 @@
 [
   {
-    "origin": "/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-hydrogen-itc.html",
+    "origin": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-hydrogen-itc.html",
     "destination": "/clean-economy/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-hydrogen-itc.html"
   },
   {
@@ -48,11 +48,11 @@
     "destination": "/clean-economy/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-hydrogen-itc/who-claim-ch-itc.html"
   }
   {
-    "origin": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc.html",
+    "origin": "/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc.html",
     "destination": "/clean-economy/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc.html"
   },
   {
-    "origin": "https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/about-ce-itc.html",
+    "origin": "/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/about-ce-itc.html",
     "destination": "/clean-economy/en/revenue-agency/services/tax/businesses/topics/corporations/business-tax-credits/clean-economy-itc/clean-electricity-itc/about-ce-itc.html"
   },
   {
